@@ -11,6 +11,8 @@ h1, h2, h3, h4, h5 {
 p {
   line-height: 20px;
   color: #5a595b;
+  color: #141F36;
+
 
 }
 
@@ -69,6 +71,7 @@ nav li a:hover {
   background: url(../images/jabirubinoculars.jpg) no-repeat top left;
   text-align: center;
   color: #fafafa;
+  color: #141F36;
   background-size: cover;
   height: 350px;
   padding: 25px 0;
@@ -85,10 +88,12 @@ nav li a:hover {
 #hero h2 {
   font-size: 400%;
   margin: 10px;
+  color: #141F36;
+  text-shadow: 1px 1px 1px #A7ABAC;
 }
 
 #hero span {
-  border: 2px solid white;
+  border: 2px solid #141F36;
   padding: 10px 20px;
   display: inline-block;
   margin-top: 10px;
@@ -130,7 +135,7 @@ nav li a:hover {
 }
 
 .column .btn {
-  border: 2px solid #8a80c3;
+  border: 2px solid #A7ABAC;
   padding: 10px 20px;
   display: inline-block;
   margin-top: 10px;
@@ -138,6 +143,7 @@ nav li a:hover {
   text-decoration: none;
   color: #8a80c3;
   color: #AB9BC5;
+  color: #A7ABAC;
 }
 
 #social {
