@@ -200,4 +200,7 @@ footer {
     padding: 0px;
     margin: 0 0 40px 0;
   }
+  #hero h2 {
+    font-size: 200%;
+  }
 }
