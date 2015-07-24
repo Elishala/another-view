@@ -37,16 +37,16 @@ nav li a {
   padding: 25px 10px;
   display: block;
   text-decoration: none;
-  color: #333;
-  /*-webkit-transition: all 1s ease-in-out;
+  color: #141F36;
+  -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;*/
+  transition: all 1s ease-in-out;
 }
 
 nav li a:hover {
-  background: #e5e5e5;
+  background: #141F36;
   color: #fafafa;
 }
 
