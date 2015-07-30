@@ -187,10 +187,16 @@ nav li a:hover {
   padding: 0;
   position: relative;
   right: 50%;
+  transition: all .2s ease-in-out
 }
 
 #social ul li img {
   margin: 20px;
+}
+
+#social li:hover {
+  transform: scale(2.1);
+  background-color: gray;
 }
 
 .twitter-share-button {
