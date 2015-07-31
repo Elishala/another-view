@@ -144,6 +144,11 @@ nav li a:hover {
   color: #A7ABAC;
 }
 
+.btn:hover {
+  background-color: gray;
+  color: white;
+}
+
 .btn-area {
   padding-top: 10%;
 }
