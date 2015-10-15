@@ -50,7 +50,7 @@ nav li a:hover {
 
 #brand {
   text-indent: -9000px;
-  background: url (../images/ohio.jpg) no-repeat top left;
+  background-image: url(../images/ohio.jpg) no-repeat top left;
   background-size: 45;
   height: 45px;
   width: 45px;
