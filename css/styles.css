@@ -72,7 +72,9 @@ nav li a:hover {
   background: url(../images/jabiru.JPG) no-repeat top left;
   text-align: center;
   /*white-like color fafafa*/
-  color: #fafafa;
+  /*color: #fafafa;*/
+  color: #121D33;
+
   background-size: cover;
   height: 350px;
   padding: 25px 0;
@@ -203,9 +205,18 @@ footer {
   }
 }
 
+@media only screen and (max-width: 730px)  {
+  #hero span {
+    border: 2px solid #121d33;
+    padding: 3px 8px;
+    font-size: 150%;
+  }
+}
 @media only screen and (max-width: 640px)  {
   #hero h1 {
     font-size: 371%;
+    color: #fafafa;
+
   }
 
   .column {
