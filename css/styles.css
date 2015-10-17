@@ -16,6 +16,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
+  /*white-like color fafafa*/
   background: #fafafa;
   border-bottom: 2px solid #ccc;
   height: 66px;
@@ -35,20 +36,24 @@ nav li a {
   padding: 25px 10px;
   display: block;
   text-decoration: none;
-  color: #333;
-  /*-webkit-transition: all 1s ease-in-out;
+  /*navy blue color is mirage and from hero background pic #121d33*/
+  color: #121D33;
+  -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;*/
+  transition: all 1s ease-in-out;
 }
 
 nav li a:hover {
-  background: #e5e5e5;
-  color: #fafafa;
+  /*navy blue color is mirage and from hero background pic #121d33*/
+  background: #121D33;
+  /*light-gray color e5e5e5*/
+  color: #e5e5e5;
+
 }
 
-#brand {
+/*#brand {
   text-indent: -9000px;
   background-image: url(../images/ohio.jpg) no-repeat top left;
   background-size: 45;
@@ -56,7 +61,7 @@ nav li a:hover {
   width: 45px;
   float: left;
   margin: 10px;
-}
+}*/
 
 .container {
   width: 100%;
@@ -66,6 +71,7 @@ nav li a:hover {
 #hero {
   background: url(../images/jabiru.JPG) no-repeat top left;
   text-align: center;
+  /*white-like color fafafa*/
   color: #fafafa;
   background-size: cover;
   height: 350px;
@@ -80,18 +86,25 @@ nav li a:hover {
   transition: all 1s ease-in-out;*/
 }
 
-#hero h2 {
+#hero h1 {
   font-size: 400%;
   margin: 10px;
+  text-shadow: 1px 1px 1px #121D33;
+
 }
 
-#hero span {
-  border: 2px solid white;
+#hero span  {
+  border: 2px solid #121D33;
   padding: 10px 20px;
   display: inline-block;
   margin-top: 10px;
   font-size: 150%;
 }
+
+.city {
+  color: #121D33;
+}
+
 
 #main-content {
   text-align: center;
@@ -180,7 +193,7 @@ footer {
   .column {
     padding: 10px;
   }
-  #hero h2 {
+  #hero h1 {
     font-size: 200%:
   }
   #main-content h3 {
@@ -189,10 +202,22 @@ footer {
 }
 
 @media only screen and (max-width: 640px)  {
+  #hero h1 {
+    font-size: 371%;
+  }
+
   .column {
     float: none;
     width: 100%;
     padding: 0px;
     margin: 0 0 40px 0;
+  }
+  #hero span {
+    border: 1px solid white;
+    padding: 3px 7px;
+    font-size: 100%;
+  }
+  .city {
+    color: white;
   }
 }
