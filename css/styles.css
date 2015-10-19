@@ -85,8 +85,6 @@ nav li a:hover {
   width: 150px;
   border-radius: 50%;
   margin-top: 30px;
-  /*opacity: 1;
-  transition: all 1s ease-in-out;*/
 }
 
 #hero h1 {
@@ -149,6 +147,17 @@ nav li a:hover {
   text-decoration: none;
   color: #8a80c3;
   color: #AB9BC5;
+}
+
+.column .btn:hover {
+  color: white;
+  background: #ab9bc5;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  transform: scale(1);
 }
 
 #social {
