@@ -17,6 +17,7 @@ h1 {
 
 p {
   line-height: 20px;
+  padding: inherit;
 }
 
 nav {
@@ -57,7 +58,6 @@ nav li a:hover {
   background: #121D33;
   /*light-gray color e5e5e5*/
   color: #e5e5e5;
-
 }
 
 .container {
