@@ -10,8 +10,9 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.7em;
   color: #121D33;
+  padding: 3%;
 }
 
 p {
