@@ -44,7 +44,7 @@ nav li a {
   padding: 25px 10px;
   display: block;
   text-decoration: none;
-  /*navy blue color is mirage and from hero background pic #121d33*/
+  /*navy blue color is mirage #121d33*/
   color: #121D33;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
@@ -54,7 +54,7 @@ nav li a {
 }
 
 nav li a:hover {
-  /*navy blue color is mirage and from hero background pic #121d33*/
+  /*navy blue color is mirage #121d33*/
   background: #121D33;
   /*light-gray color e5e5e5*/
   color: #e5e5e5;
@@ -64,7 +64,6 @@ nav li a:hover {
   width: 100%;
   margin: 0 auto;
 }
-
 
 #main-content {
   text-align: center;
@@ -132,11 +131,15 @@ footer {
   color: inherit;
 }
 
+/*****************************************/
+/*      RESPONSIVENESS BEGINS HERE       */
+/*****************************************/
+
 @media only screen and (max-width: 901px) {
   .column {
     padding: 10px;
   }
-  #hero h1 {
+  h1 {
     font-size: 200%:
   }
   #main-content h3 {
@@ -156,5 +159,8 @@ footer {
     width: 100%;
     padding: 0px;
     margin: 0 0 40px 0;
+  }
+  p {
+    padding: 3% 5%;
   }
 }
