@@ -107,6 +107,10 @@ nav li a:hover {
   color: #121D33;
 }
 
+.btn {
+  border-radius: 45px;
+}
+
 .column .btn:hover {
   color: white;
   background: #121D33;
